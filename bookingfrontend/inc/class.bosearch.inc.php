@@ -196,26 +196,6 @@
 					$res_result['total_records'] ++;
 					$res_result['results'][] = $res;
 				}
-/*
-				if (isset($bui_result['total_records']) && $bui_result['total_records'] > 0)
-				{
-					$_bui_result = array(
-						'total_records' => 0,
-						'start' => $bui_result['start'],
-						'sort' => $bui_result['sort'],
-						'dir' => $bui_result['dir']
-					);
-					foreach ($bui_result['results'] as $bui)
-					{
-						if (isset($_resource_buildings[$bui['id']]))
-						{
-							$_bui_result['results'][] = $bui;
-							$_bui_result['total_records'] ++;
-						}
-					}
-					$bui_result = $_bui_result;
-				}
- */
 			}
 
 
